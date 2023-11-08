@@ -65,6 +65,12 @@
     # EDITOR = "emacs";
   };
 
+  programs.git = {
+    enable = true;
+    userName = "Mike Lukina";
+    userEmail = "133166290+mlukina@users.noreply.github.com";
+  };
+
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 }
