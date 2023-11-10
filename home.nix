@@ -69,6 +69,11 @@
     enable = true;
     userName = "Mike Lukina";
     userEmail = "133166290+mlukina@users.noreply.github.com";
+    extraConfig = {
+      core = {
+       editor = "vim";
+      };
+    };
   };
 
   # Let Home Manager install and manage itself.
